@@ -28,3 +28,15 @@ function ejercicio_3() {
     }
 
 }
+
+function ejercicio_4() {
+    let totalCompra = prompt("Ingrese el total de una compra: ")
+if (totalCompra > 100) {
+    let descuento = totalCompra * 0.1
+    totalCompra = totalCompra - descuento
+    console.log("Tienes un descuento del 10% y el total es: " + totalCompra)
+}
+else {
+    console.log("No tienes descuento")
+}
+}
