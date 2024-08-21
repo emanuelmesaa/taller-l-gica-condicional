@@ -40,3 +40,18 @@ else {
     console.log("No tienes descuento")
 }
 }
+
+function ejercicio_5() {
+    let numeroUno = prompt("Ingrese el primer número: ")
+let numeroDos = prompt("Ingrese el segundo número: ")
+if (numeroUno > numeroDos) {
+    console.log("El primer número es mayor que el segundo")
+}
+else if (numeroUno < numeroDos) {
+    console.log("El segundo número es mayor que el primero")
+}
+else {
+    console.log("Los números son iguales")
+}
+}
+
