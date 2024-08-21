@@ -17,3 +17,14 @@ function ejercicio_2() {
         console.log("El número es negativo)")
     }
 }
+
+function ejercicio_3() {
+    let numeroUsuarioParOImpar = prompt("Ingrese un número: ")
+    if (numeroUsuario % 2 == 0) {
+        console.log("El número es par.")
+    }
+    else {
+        console.log("El número es impar")
+    }
+
+}
