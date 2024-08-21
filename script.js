@@ -73,36 +73,51 @@ function ejercicio_6() {
 
 function ejercicio_7() {
     let nota = prompt("Ingrese una nota entre 0 y 100: ")
-if (nota >= 90 && nota <= 100) {
-    console.log("Excelente.")
-}
-else if (nota >= 70 && nota <= 89) {
-    console.log("Bueno.")
-}
-else if (nota >= 50 && nota <= 69) {
-    console.log("Regular.")
-}
-else if (nota >= 0 && nota <= 49) {
-    console.log("Insuficiente.")
-}
+    if (nota >= 90 && nota <= 100) {
+        console.log("Excelente.")
+    }
+    else if (nota >= 70 && nota <= 89) {
+        console.log("Bueno.")
+    }
+    else if (nota >= 50 && nota <= 69) {
+        console.log("Regular.")
+    }
+    else if (nota >= 0 && nota <= 49) {
+        console.log("Insuficiente.")
+    }
 }
 
 function ejercicio_8() {
     let opcionMenu = prompt("Elija una opción de menú: 1- Pizza. 2- Hamburguesa. 3- Tacos.");
 
-switch (opcionMenu) {
-    case 1:
-        console.log("Seleccionaste Pizza.")
-        break;
-    case 2:
-        console.log("Seleccionaste Hamburguesa.")
-        break;
-    case 3:
-        console.log("Seleccionaste Tacos.")
-        break;
+    switch (opcionMenu) {
+        case 1:
+            console.log("Seleccionaste Pizza.")
+            break;
+        case 2:
+            console.log("Seleccionaste Hamburguesa.")
+            break;
+        case 3:
+            console.log("Seleccionaste Tacos.")
+            break;
 
-    default:
-        console.log("Opción no válida.")
-        break;
+        default:
+            console.log("Opción no válida.")
+            break;
+    }
 }
+
+function ejercicio_9() {
+    let ladoTriangulo1 = prompt("Ingrese el primer lado de un triándulo: ")
+    let ladoTriangulo2 = prompt("Ingrese el segundo lado de un triángulo: ")
+    let ladoTriangulo3 = prompt("Ingrese el tercer lado de un triángulo: ")
+    if (ladoTriangulo1 == ladoTriangulo2 == ladosTriangulo3) {
+        console.log("El triángulo es equilátero.")
+    }
+    else if (ladoTriangulo1 === ladoTriangulo2 || ladoTriangulo2 === ladoTriangulo3 || ladoTriangulo3 === ladoTriangulo1) {
+        console.log("El triángulo es isósceles.")
+    }
+    else {
+        console.log("El triángulo es escaleno.")
+    }
 }
