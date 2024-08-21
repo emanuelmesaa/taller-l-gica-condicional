@@ -55,3 +55,18 @@ else {
 }
 }
 
+function ejercicio_6() {
+    let clasificacionEdad = prompt("Ingresa tu edad: ")
+if (clasificacionEdad >= 0 && clasificacionEdad <= 12) {
+    console.log("Eres un niño")
+}
+else if (clasificacionEdad > 12 && clasificacionEdad < 17) {
+    console.log("Eres un adolescente.")
+}
+else if (clasificacionEdad > 18 && clasificacionEdad < 64) {
+    console.log("Eres un adulto.")
+}
+else if (clasificacionEdad >= 65) {
+    console.log("Eres un adulto mayor.")
+}
+}
